@@ -19,7 +19,6 @@ export default function Academic() {
           : 'linear-gradient(rgba(255, 255, 255, 0.9), rgba(241, 245, 249, 0.95))',
       }}
     >
-      {/* Background image with parallax effect */}
       <div 
         className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')] bg-cover bg-center opacity-15 -z-10 blur-sm transform transition-transform duration-1000" 
         data-aos="fade"
@@ -32,7 +31,6 @@ export default function Academic() {
           data-aos="zoom-in"
           data-aos-duration="800"
         >
-          {/* VSCode title bar */}
           <div 
             className="flex items-center px-4 py-3 bg-[var(--bg-secondary)]/95 text-sm text-[var(--text-primary)] border-b border-[var(--border-primary)]/50"
             style={{

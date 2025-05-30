@@ -28,7 +28,7 @@ export default function Header() {
 
   const backgroundImageUrl = theme === 'dark'
     ? 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
-    : '/images/images/fondb.png'; // Utilisation correcte du chemin public
+    : '/images/images/fondb.png';
 
   return (
     <header className={`relative py-16 overflow-hidden ${theme === 'dark' ? 'bg-gray-900 text-gray-100' : 'bg-gray-100 text-gray-800'}`}>
@@ -50,19 +50,24 @@ export default function Header() {
           className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600"
           variants={itemVariants}
         >
-          Développeuse Full Stack
+                     Full Stack Developer
         </motion.h1>
         
         <motion.p 
           className="text-xl mb-8 max-w-3xl mx-auto leading-relaxed"
           variants={itemVariants}
         >
-          Étudiante en informatique passionnée par le développement web, 
-          je suis à la recherche d'un stage de 3 mois à partir de juin, 
-          afin de mettre en pratique mes compétences dans un projet concret 
-          de digitalisation. Curieuse, motivée et prête à relever des défis, 
-          je souhaite contribuer activement au développement d'une application de 
-          gestion innovante, tout en enrichissant mon expérience professionnelle.
+          I'm a computer science student with a passion for web development, 
+
+          I am looking for a 3-month internship starting in June, 
+
+          in order to put my skills into practice in a concrete 
+
+          digitalization project. Curious, motivated and ready to take on challenges, 
+
+          I'd like to actively contribute to the development of an innovative 
+
+          while enriching my professional experience.
         </motion.p>
         
         <motion.div variants={itemVariants}>
