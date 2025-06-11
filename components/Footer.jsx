@@ -43,12 +43,13 @@ export default function Footer() {
             </address>
           </div>
 
-          {/* Social Media Section */}
           <div className="flex flex-col items-center">
             <h5 className="text-xl font-semibold uppercase tracking-wide mb-4">Social Media</h5>
             <div className="flex justify-center gap-4">
               <a
                 href="https://www.linkedin.com/in/ando-rajaoherisoa-9b4954282/"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`p-3 rounded-full transition-all duration-200 ${
                   theme === 'dark' ? 'bg-gray-700/50 hover:bg-blue-500' : 'bg-gray-200 hover:bg-blue-400'
                 } transform hover:scale-110`}
@@ -58,6 +59,8 @@ export default function Footer() {
               </a>
               <a
                 href="https://github.com/Niainah"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={`p-3 rounded-full transition-all duration-200 ${
                   theme === 'dark' ? 'bg-gray-700/50 hover:bg-blue-500' : 'bg-gray-200 hover:bg-blue-400'
                 } transform hover:scale-110`}
@@ -66,18 +69,20 @@ export default function Footer() {
                 <Github size={20} />
               </a>
               <a
-                href="https://web.facebook.com/profile.php?id=100085000382015"
-                className={`p-3 rounded-full transition-all duration-200 ${
-                  theme === 'dark' ? 'bg-gray-700/50 hover:bg-blue-500' : 'bg-gray-200 hover:bg-blue-400'
-                } transform hover:scale-110`}
-                aria-label="Visit Facebook profile"
-              >
-                <Facebook size={20} />
-              </a>
+  href="https://web.facebook.com/profile.php?id=100085000382015"
+  target="_blank"
+  rel="noopener noreferrer"
+  className={`p-3 rounded-full transition-all duration-200 ${
+    theme === 'dark' ? 'bg-gray-700/50 hover:bg-blue-500' : 'bg-gray-200 hover:bg-blue-400'
+  } transform hover:scale-110`}
+  aria-label="Visit Facebook profile"
+>
+  <Facebook size={20} />
+</a>
+
             </div>
           </div>
 
-          {/* About Section */}
           <div className="space-y-4 text-center md:text-right">
             <h5 className="text-xl font-semibold uppercase tracking-wide">About</h5>
             <p className={`${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'}`}>
@@ -86,9 +91,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Theme Toggle and Scroll to Top Buttons */}
         <div className="mt-10 flex justify-center gap-4">
-          {/* Theme Toggle Button */}
           <button
             onClick={toggleTheme}
             className={`p-3 rounded-full transition-all duration-200 ${

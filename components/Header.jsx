@@ -28,7 +28,7 @@ export default function Header() {
 
   const backgroundImageUrl = theme === 'dark'
     ? 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80'
-    : '/images/images/fondb.png';
+    : '/images/fond.png';
 
   return (
     <header className={`relative py-16 overflow-hidden ${theme === 'dark' ? 'bg-gray-900 text-gray-100' : 'bg-gray-100 text-gray-800'}`}>
