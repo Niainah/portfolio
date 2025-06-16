@@ -92,7 +92,7 @@ export default function Navbar() {
             </ul>
             <div className="flex items-center gap-4 mt-4 md:mt-0 pl-1 md:pl-0">
               <a
-                href="https://www.canva.com/design/DAGgC_zjAfw/dAkifTQ84zgcUiR9dFaRXA/edit?utm_content=DAGgC_zjAfw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                href="https://www.canva.com/design/DAGod6lLWCA/_Y_G8b8yrbBypT5IzXPF4Q/edit?utm_content=DAGod6lLWCA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 px-4 py-2 md:px-6 md:py-2 bg-blue-600 text-white rounded-full transition-all duration-300 hover:shadow-lg hover:shadow-blue-500/30 hover:scale-105 active:scale-95 text-sm md:text-base hover:bg-blue-700"

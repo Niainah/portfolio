@@ -69,16 +69,16 @@ export default function Footer() {
                 <Github size={20} />
               </a>
               <a
-  href="https://web.facebook.com/profile.php?id=100085000382015"
-  target="_blank"
-  rel="noopener noreferrer"
-  className={`p-3 rounded-full transition-all duration-200 ${
-    theme === 'dark' ? 'bg-gray-700/50 hover:bg-blue-500' : 'bg-gray-200 hover:bg-blue-400'
-  } transform hover:scale-110`}
-  aria-label="Visit Facebook profile"
->
-  <Facebook size={20} />
-</a>
+                href="https://web.facebook.com/profile.php?id=100085000382015"
+                target="_blank"
+                rel="noopener noreferrer"
+                className={`p-3 rounded-full transition-all duration-200 ${
+                  theme === 'dark' ? 'bg-gray-700/50 hover:bg-blue-500' : 'bg-gray-200 hover:bg-blue-400'
+                } transform hover:scale-110`}
+                aria-label="Visit Facebook profile"
+              >
+                <Facebook size={20} />
+              </a>
 
             </div>
           </div>
@@ -101,8 +101,6 @@ export default function Footer() {
           >
             {theme === 'dark' ? <Sun size={20} /> : <Moon size={20} />}
           </button>
-
-          {/* Scroll to Top Button */}
           <a
             href="#top"
             className={`p-3 rounded-full transition-all duration-200 ${
