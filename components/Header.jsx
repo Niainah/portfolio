@@ -50,24 +50,19 @@ export default function Header() {
           className="text-5xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-600"
           variants={itemVariants}
         >
-                     Full Stack Developer
+                    Web developer
         </motion.h1>
         
         <motion.p 
           className="text-xl mb-8 max-w-3xl mx-auto leading-relaxed"
           variants={itemVariants}
         >
-          I'm a computer science student with a passion for web development, 
+           L3 student in Computer Science specializing in Software Ecosystems, I'm passionate about web development, 
+          particularly with Java and Next.js/React js technologies. My aim is to apply 
+          my skills to design a concrete digitalization project. Curious and motivated, 
+          I'm ready to actively contribute to the development of an innovative management 
+          application, while gaining rewarding professional experience in the field.
 
-          I am looking for a 3-month internship starting in June, 
-
-          in order to put my skills into practice in a concrete 
-
-          digitalization project. Curious, motivated and ready to take on challenges, 
-
-          I'd like to actively contribute to the development of an innovative 
-
-          while enriching my professional experience.
         </motion.p>
         
         <motion.div variants={itemVariants}>
