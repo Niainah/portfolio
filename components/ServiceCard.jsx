@@ -72,7 +72,7 @@ export default function ServiceCard() {
 
   return (
     <section
-      id="services"
+      id="service"
       className={`py-24 ${themeClasses.section} transition-colors duration-500`}
     >
       <div className="container mx-auto px-6">

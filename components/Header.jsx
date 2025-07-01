@@ -31,7 +31,7 @@ export default function Header() {
     : '/images/fond.png';
 
   return (
-    <header className={`relative py-16 overflow-hidden ${theme === 'dark' ? 'bg-gray-900 text-gray-100' : 'bg-gray-100 text-gray-800'}`}>
+    <header id="about" className={`relative py-16 overflow-hidden ${theme === 'dark' ? 'bg-gray-900 text-gray-100' : 'bg-gray-100 text-gray-800'}`}>
       <div className="absolute inset-0 z-0">
         <div className={`absolute inset-0 ${theme === 'dark' ? 'bg-gray-800' : 'bg-gray-200'} opacity-70`}></div>
         <div 

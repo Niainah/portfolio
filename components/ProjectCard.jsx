@@ -4,7 +4,6 @@ import { useTheme } from '../context/ThemeContext';
 export default function ProjectCard() {
   const { theme } = useTheme();
 
-  // Styles conditionnels
   const themeClasses = {
     section: theme === 'dark' ? 'bg-dark' : 'bg-light',
     text: {
@@ -21,11 +20,10 @@ export default function ProjectCard() {
 
   return (
     <section 
-      id="projects" 
+      id="project" 
       className={`py-20 transition-colors duration-300 ${themeClasses.section}`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
         <div className="text-center mb-16">
           <h2 className={`text-4xl md:text-5xl font-bold mb-3 ${themeClasses.text.primary}`}>
             My Projects <span role="img" aria-label="folder">🚀</span>
@@ -35,7 +33,6 @@ export default function ProjectCard() {
           </p>
         </div>
 
-        {/* Grid de projets */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
             <div
@@ -43,7 +40,6 @@ export default function ProjectCard() {
               className="group perspective h-72 sm:h-80 md:h-84"
             >
               <div className="relative w-full h-full transition-all duration-500 transform-style-preserve-3d group-hover:rotate-y-180">
-                {/* Face avant */}
                 <div className={`absolute w-full h-full backface-hidden rounded-xl shadow-2xl overflow-hidden border-2 ${themeClasses.card.front}`}>
                   <div className="relative w-full h-full">
                     <img
@@ -90,7 +86,6 @@ export default function ProjectCard() {
         </div>
       </div>
 
-      {/* Styles CSS */}
       <style jsx>{`
         .perspective {
           perspective: 1200px;
