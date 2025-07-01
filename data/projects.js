@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/eventSphere.png',
     links: [
       { url: 'https://github.com/Ngourndii-dev/event-sphere-back.git', icon: '⚙️', label: 'View backend code' },
-      { url: 'https://eventsphere-hkl08xqm3-exam1.vercel.app/', icon: '🚀', label: 'Visit live site' },
+      { url: 'https://eventsphere-nine.vercel.app/', icon: '🚀', label: 'Visit live site' },
       { url: 'https://github.com/Ngourndii-dev/event-sphere-front.git', icon: '🎨', label: 'View frontend code' },
     ],
   },
